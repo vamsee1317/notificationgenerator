@@ -41,11 +41,12 @@ function App(){
 
   return(
     <div>
-        {
+        {/* {
           notifications.map((note, i)=>(
             <Notifications key={i} {...note}/>
           ))
-        }
+        } */}
+        <Notifications note={notifications} />
     </div>
   )
 }
